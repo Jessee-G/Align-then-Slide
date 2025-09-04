@@ -4,9 +4,9 @@ from stage1_align import restruct_tgt_lines
 from stage2_slide import n_slide_comet_with_ref, n_slide_comet_no_ref
 
 
-da20_model = load_from_checkpoint("/data/ptms/Unbabel/wmt20-comet-da/checkpoints/model.ckpt")
-# da22_model = load_from_checkpoint("/data/ptms/Unbabel/wmt22-comet-da/checkpoints/model.ckpt")
-kiwi_model = load_from_checkpoint("/data/ptms/Unbabel/wmt22-cometkiwi-da/checkpoints/model.ckpt")
+da20_model = load_from_checkpoint("Unbabel/wmt20-comet-da/checkpoints/model.ckpt")
+# da22_model = load_from_checkpoint("Unbabel/wmt22-comet-da/checkpoints/model.ckpt")
+kiwi_model = load_from_checkpoint("Unbabel/wmt22-cometkiwi-da/checkpoints/model.ckpt")
 
 
 if __name__ == "__main__":
