@@ -20,7 +20,7 @@ At present, the `get_alignment` method in `stage1_align.py` uses [COMETKiwi](htt
 
 You can also switch to other alignment models such as [LaBSE](https://huggingface.co/sentence-transformers/LaBSE).
 
-## Alignment Models in Stage 2
+# Alignment Models in Stage 2
 
 In `stage2_slide.py`, we have implemented both reference-free and reference-based computations for flexibility.
 
