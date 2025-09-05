@@ -1,6 +1,8 @@
 # Align-then-Slide
 Align-then-Slide: A complete evaluation framework for Ultra-Long Document-Level Machine Translation (Reproduce)
 
+[paper](https://arxiv.org/abs/2509.03809)
+
 ![](method.png)
 
 
